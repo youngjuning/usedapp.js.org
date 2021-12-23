@@ -1,5 +1,5 @@
 ---
-title: useDapp - Framework for rapid Dapp development.
+title: useDapp - Ethereum ♥ React
 hero:
   title: useDapp
   desc: Framework for rapid Dapp development.

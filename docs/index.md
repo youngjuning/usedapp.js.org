@@ -1,5 +1,5 @@
 ---
-title: useDapp - 快速开发 Dapp 的框架
+title: useDapp - 以太坊 ♥ React
 hero:
   title: useDapp
   desc: 快速开发 Dapp 的框架
