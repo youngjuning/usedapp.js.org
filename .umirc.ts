@@ -5,6 +5,11 @@ export default defineConfig({
   description: 'Framework for rapid Dapp development.',
   favicon: 'https://usedapp.io/img/favicon.ico',
   mode: 'site',
-  locales: [['zh-CN', '中文'], ['en-US', 'English']]
+  locales: [
+    ['zh-CN', '中文'],
+    ['en-US', 'English'],
+  ],
+  base: '/usedapp.js.org',
+  publicPath: '/usedapp.js.org/',
   // more config: https://d.umijs.org/config
-}as IConfig) ;
+} as IConfig);
