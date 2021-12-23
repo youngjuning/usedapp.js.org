@@ -11,5 +11,15 @@ export default defineConfig({
   ],
   base: '/usedapp.js.org',
   publicPath: '/usedapp.js.org/',
+  extraBabelPlugins: [
+    [
+      'import',
+      {
+        libraryName: 'antd',
+        libraryDirectory: 'es',
+        style: 'css',
+      },
+    ],
+  ],
   // more config: https://d.umijs.org/config
 } as IConfig);

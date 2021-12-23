@@ -1,6 +1,7 @@
 import React from 'react';
 import { useEtherBalance, useEthers } from '@usedapp/core';
 import { formatEther } from '@ethersproject/units';
+import { Button, Space } from 'antd';
 import Provider from '../Provider';
 
 const Simple = () => {
@@ -9,14 +10,21 @@ const Simple = () => {
 
   return (
     <Provider>
-      <div>
-        <div>
-          <button onClick={() => activateBrowserWallet()}>Connect</button>{' '}
-          <button onClick={() => deactivate()}>Connect</button>
-        </div>
-        {account && <p>Account: {account}</p>}
-        {etherBalance && <p>Balance: {formatEther(etherBalance)}</p>}
-      </div>
+      {!account ? (
+        <Button type="primary" onClick={() => activateBrowserWallet()}>
+          Connect
+        </Button>
+      ) : (
+        <Space direction="vertical" size="middle">
+          <Button type="primary" danger onClick={() => deactivate()}>
+            DisConnect
+          </Button>
+          <div>
+            <p>Account: {account}</p>
+            {etherBalance && <p>Balance: {formatEther(etherBalance)}</p>}
+          </div>
+        </Space>
+      )}
     </Provider>
   );
 };
