@@ -1,8 +1,8 @@
 ---
-title: useDapp - Ethereum ♥ React
+title: Ethereum ♥ React
 hero:
   title: useDapp
-  desc: Framework for rapid Dapp development.
+  desc: Framework for rapid Ethereum Dapp development.
   actions:
     - text: Getting Started
       link: /getting-started

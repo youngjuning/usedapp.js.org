@@ -1,8 +1,8 @@
 ---
-title: useDapp - 以太坊 ♥ React
+title: 以太坊 ♥ React
 hero:
   title: useDapp
-  desc: 快速开发 Dapp 的框架
+  desc: 快速开发 以太坊 Dapp 的框架
   actions:
     - text: 快速上手
       link: /getting-started

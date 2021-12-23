@@ -2,7 +2,7 @@ import { defineConfig, IConfig } from 'dumi';
 
 export default defineConfig({
   title: 'useDapp',
-  description: 'Framework for rapid Dapp development.',
+  description: 'Framework for rapid Ethereum Dapp development.',
   favicon: 'https://usedapp.io/img/favicon.ico',
   mode: 'site',
   locales: [
