@@ -9,8 +9,6 @@ export default defineConfig({
     ['zh-CN', '中文'],
     ['en-US', 'English'],
   ],
-  base: '/usedapp.js.org',
-  publicPath: '/usedapp.js.org/',
   extraBabelPlugins: [
     [
       'import',
