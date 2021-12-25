@@ -5,7 +5,7 @@ hero:
   desc: Framework for rapid Ethereum Dapp development.
   actions:
     - text: Getting Started
-      link: /getting-started
+      link: /en-US/getting-started
 features:
   - icon: https://raw.githubusercontent.com/youngjuning/images/main/202112201357244.png
     title: Connection management
