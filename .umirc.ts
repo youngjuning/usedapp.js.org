@@ -19,5 +19,9 @@ export default defineConfig({
       },
     ],
   ],
+  exportStatic: {},
+  sitemap: {
+    hostname: 'https://usedapp.js.org',
+  },
   // more config: https://d.umijs.org/config
 } as IConfig);
