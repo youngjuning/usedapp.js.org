@@ -1,13 +1,13 @@
 ---
-title: A static site based on dumi
+title: useDApp | 当以太坊遇见 React
 hero:
-  title: Site
-  description: 快速开发以太坊 Dapp 的框架
+  title: useDApp
+  description: 快速 Dapp 开发框架
   actions:
-    - text: Hello
+    - text: 立即上手
       link: /
-    - text: World
-      link: /
+    - text: GitHub
+      link: https://github.com/youngjuning/usedapp.js.org
 features:
   - title: Hello
     emoji: 💎
@@ -19,5 +19,3 @@ features:
     emoji: 🚀
     description: Put ! description here
 ---
-
-usedapp.js.org
