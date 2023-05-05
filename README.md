@@ -1,21 +1,20 @@
-# dumi app
+# usedapp.js.org
 
-## Getting Started
+A static site base on [dumi](https://d.umijs.org).
 
-Install dependencies,
-
-```bash
-$ npm i
-```
-
-Start the dev server,
+## Development
 
 ```bash
-$ npm start
+# install dependencies
+$ yarn install
+
+# start dev server
+$ yarn start
+
+# build docs
+$ yarn build
 ```
 
-Build site app,
+## LICENSE
 
-```bash
-$ npm run build
-```
+MIT
