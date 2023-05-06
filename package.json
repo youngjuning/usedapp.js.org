@@ -5,7 +5,8 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/youngjuning/usedapp.js.org"
+    "url": "git+https://github.com/youngjuning/usedapp.js.org.git",
+    "branch": "main"
   },
   "homepage": "https://usedapp.js.org",
   "scripts": {

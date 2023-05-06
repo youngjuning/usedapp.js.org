@@ -1,10 +1,13 @@
 ---
+order: 0
+description: 要开始使用 useDapp，您需要拥有一个可用的 React 环境。
+keywords: ['useDapp', 'React', 'ethers', '以太坊', 'Ethereum']
 nav:
   title: 开始
   order: 0
-title: 安装
-order: 0
 ---
+
+# 安装
 
 要开始使用 useDapp，您需要拥有一个可用的 React 环境。
 
