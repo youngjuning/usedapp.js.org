@@ -134,7 +134,7 @@ export default () => (
 
 ## 自定义 Hooks
 
-> TODO: See the **Custom Hooks** guide if you need to read state not supported by the built-in **hooks**.
+See the [Custom Hooks](https://usedapp-docs.netlify.app/docs/Guides/Reading/Custom%20Hooks) guide if you need to read state not supported by the built-in [hooks](https://usedapp-docs.netlify.app/docs/API%20Reference/Hooks).
 
 ## 在没有浏览器钱包的情况下进行读取操作
 
