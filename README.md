@@ -1,20 +1,17 @@
 # usedapp.js.org
 
-A static site base on [dumi](https://d.umijs.org).
+为快速 Dapp 开发而生的框架
 
-## Development
+## 安装
 
-```bash
-# install dependencies
-$ yarn install
-
-# start dev server
-$ yarn start
-
-# build docs
-$ yarn build
+```sh
+yarn add @usedapp/core ethers
 ```
 
-## LICENSE
+## 交流与反馈
 
-MIT
+请访问 [GitHub](https://github.com/youngjuning/usedapp.js.org) 或加入讨论群：
+
+<div>
+  <img data-type="Telegram" src="https://cdn.jsdelivr.net/gh/youngjuning/images@main/1683342702064.png" width="300" />
+</div>
