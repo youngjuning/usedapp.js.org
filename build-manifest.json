@@ -1,5 +1,6 @@
 {
   "assets": {
+    "public/ads.txt": "/ads.txt",
     "umi.css": "/umi.71d69fb7.css",
     "umi.js": "/umi.29ebfa0e.js",
     "dumi__pages__404.js": "/dumi__pages__404.19496d06.async.js",
