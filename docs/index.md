@@ -8,7 +8,7 @@ hero:
     <small style="opacity: 0.7;">为快速 Dapp 开发而生的框架</small>
   actions:
     - text: 立即上手
-      link: /get-started
+      link: /getting-started
     - text: GitHub
       link: https://github.com/youngjuning/usedapp.js.org
 features:
