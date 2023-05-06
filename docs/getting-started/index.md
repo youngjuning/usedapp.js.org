@@ -51,7 +51,7 @@ const App = () => {
   const { account, chainId } = useEthers()
   console.log("chainId", chainId);
   const etherBalance = useEtherBalance(account)
-  if (chainId && !config.readOnlyUrls[chainId]) {
+  if (!config.readOnlyUrls[chainId]) {
     return <p>Please use either Mainnet or Goerli testnet.</p>
   }
 

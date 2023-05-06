@@ -47,7 +47,7 @@ const ConnectButton = () => {
 const App = () => {
   const { account, chainId } = useEthers()
   const etherBalance = useEtherBalance(account)
-  if (chainId && !config.readOnlyUrls[chainId]) {
+  if (!config.readOnlyUrls[chainId]) {
     return <p>Please use either Mainnet or Goerli testnet.</p>
   }
 
@@ -108,7 +108,7 @@ const ConnectButton = () => {
 const TokenBalance = () => {
   const { account, chainId } = useEthers()
   const daiBalance = useTokenBalance(DAI[chainId], account)
-  if (chainId && !config.readOnlyUrls[chainId]) {
+  if (!config.readOnlyUrls[chainId]) {
     return <p>Please use Mainnet for this example to work.</p>
   }
 
