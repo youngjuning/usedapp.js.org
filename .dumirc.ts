@@ -5,12 +5,16 @@ export default defineConfig({
   autoAlias: false,
   themeConfig: {
     name: 'useDapp',
-    logo: 'https://usedapp.io/img/logo.svg',
+    logo: 'https://usedapp.io/img/favicon.svg',
     prefersColor: { default: 'auto' },
     socialLinks: {
       github: 'https://github.com/youngjuning/usedapp.js.org',
       twitter: 'https://twitter.com/luozhu2021'
     },
+    hd: { rules: [] },
+  },
+  theme: {
+    '@c-primary': '#13aa52',
   },
   ...(process.env.NODE_ENV === 'development' ? {} : { ssr: {} }),
   analytics: {

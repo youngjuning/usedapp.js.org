@@ -30,7 +30,7 @@ import React from 'react'
 import { Mainnet, DAppProvider, useEtherBalance, useEthers, Config, Goerli } from '@usedapp/core'
 import { formatEther } from '@ethersproject/units'
 import { getDefaultProvider } from 'ethers'
-import { Button, Space } from 'antd';
+import { Button } from 'antd';
 
 const config: Config = {
   readOnlyChainId: Mainnet.chainId,
@@ -47,7 +47,7 @@ const ConnectButton = () => {
   else return <Button type="primary" size="large" onClick={() => activateBrowserWallet()}>Connect</Button>
 }
 
-function App() {
+const App = () => {
   const { account, chainId } = useEthers()
   console.log("chainId", chainId);
   const etherBalance = useEtherBalance(account)
