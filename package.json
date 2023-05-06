@@ -3,6 +3,11 @@
   "version": "0.0.1",
   "description": "为快速 Dapp 开发而生的框架",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/youngjuning/usedapp.js.org"
+  },
+  "homepage": "https://usedapp.js.org",
   "scripts": {
     "build": "dumi build",
     "dev": "dumi dev",
@@ -14,5 +19,11 @@
   },
   "authors": [
     "luozhu <luozhu2021@gmail.com>"
-  ]
+  ],
+  "dependencies": {
+    "@ethersproject/units": "^5.7.0",
+    "@usedapp/core": "^1.2.9",
+    "antd": "^5.4.6",
+    "ethers": "5.7.2"
+  }
 }
