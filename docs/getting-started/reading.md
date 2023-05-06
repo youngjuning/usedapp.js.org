@@ -1,7 +1,7 @@
 ---
 order: 1
 description: 有许多有用的 Hooks 可以用来读取区块链状态。
-keywords: ['useDapp', 'React', 'ethers', '以太坊', 'Ethereum', 'Hooks']
+keywords: ['useDapp', 'React', 'ethers', '以太坊', 'Ethereum', 'Hooks', 'DApp']
 ---
 
 # 读取

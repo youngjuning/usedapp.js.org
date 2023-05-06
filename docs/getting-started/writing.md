@@ -1,7 +1,7 @@
 ---
 order: 2
 description: 如果要将一个改变状态的交易写入区块链，可以使用 useSendTransaction 钩子。
-keywords: ['useDapp', 'React', 'ethers', '以太坊', 'Ethereum', 'Hooks', 'useSendTransaction']
+keywords: ['useDapp', 'React', 'ethers', '以太坊', 'Ethereum', 'Hooks', 'useSendTransaction', 'DApp']
 ---
 
 # 写入
