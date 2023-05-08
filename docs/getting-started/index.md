@@ -108,4 +108,4 @@ export function App() {
 
 激活后（即用户连接到像 MetaMask 这样的钱包），该组件将显示用户的地址。
 
-如果你需要使用除浏览器钱包之外的其他连接器，请使用 `useEthers` 中的 `activate` 方法。请参阅 [web3-react](https://github.com/NoahZinsmeister/web3-react/tree/v6/docs#overview) 文档了解更多信息。
+如果你需要使用除浏览器钱包之外的其他连接器，请使用 `useEthers` 中的 `activate` 方法。请参阅 [web3-react](https://adfoc.us/81142995306560) 文档了解更多信息。

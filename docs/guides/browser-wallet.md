@@ -34,9 +34,9 @@ useEthers 钩子返回许多有用的函数和变量，如下所示：
 
 - account：当前用户账号（若未连接或在只读模式下连接，则为 `null`）
 - chainId：当前链 ID（如果未连接则为 `undefined`）
-- library：一个 ethers [Web3Provider](https://docs.ethers.io/v5/api/providers/other/#Web3Provider) 的实例（如果未连接则为 `undefined`）。了解更多关于 ethers 提供者的内容，请[点击这里](https://docs.ethers.io/v5/api/providers/)。
+- library：一个 ethers [Web3Provider](https://adfoc.us/81142995306598) 的实例（如果未连接则为 `undefined`）。了解更多关于 ethers 提供者的内容，请[点击这里](https://adfoc.us/81142995306665)。
 - active：布尔值，指示提供程序是否已连接（读或写模式）
-- activate：允许连接到钱包的功能。这是一个 [web3-react](https://github.com/NoahZinsmeister/web3-react) 功能，可以使用各种连接器。
+- activate：允许连接到钱包的功能。这是一个 [web3-react](http://adfoc.us/81142995306675) 功能，可以使用各种连接器。
 - deactivate：断开钱包连接的功能
 - error：连接过程中发生的错误（例如，连接中断、不支持的网络等）
 - switchNetwork：一个功能，会根据给定的 chainId 要求浏览器钱包切换到该网络，并尝试将该网络添加到钱包中（仅与 Metamask 兼容）。
