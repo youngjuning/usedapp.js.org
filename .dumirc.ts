@@ -16,7 +16,7 @@ export default defineConfig({
   theme: {
     '@c-primary': '#13aa52',
   },
-  ...(process.env.NODE_ENV === 'development' ? {} : { ssr: {} }),
+  // ...(process.env.NODE_ENV === 'development' ? {} : { ssr: {} }),
   analytics: {
     ga_v2: 'G-QT3BHRCWSH',
   },
