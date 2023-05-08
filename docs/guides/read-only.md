@@ -2,9 +2,6 @@
 order: 1
 description: Ethereum 与 React 的结合，为快速 Dapp 开发而生的框架
 keywords: ['useDapp', 'React', 'ethers', '以太坊', 'Ethereum', 'DApp']
-nav:
-  title: 指南
-  order: 1
 group:
   title: 连接
   order: 1
