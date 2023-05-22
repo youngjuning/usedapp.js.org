@@ -155,7 +155,7 @@ ERC-20（以太坊意见征求 20）由 Fabian Vogelsteller 提出于 2015 年 1
 
 让我们看看如此重要的一个标准是如何使我们能够简单地检查 BSC 上的任何 ERC-20 代币合约。 我们只需要合约的应用二进制接口 (ABI) 来创造一个 ERC-20 代币界面。下面我们将使用一个简化的 ABI，使其成为一个简单易用的例子。
 
-```tsx | pure
+```jsx
 import React, { useState } from 'react';
 import { formatEther } from '@ethersproject/units';
 import { Statistic, Button, Space } from 'antd';
