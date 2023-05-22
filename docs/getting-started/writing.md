@@ -10,13 +10,13 @@ keywords: ['useDapp', 'React', 'ethers', '以太坊', 'Ethereum', 'Hooks', 'useS
 
 在组件中简单地调用一个 Hook 函数。
 
-```jsx
+```jsx | pure
 const { sendTransaction } = useSendTransaction()
 ```
 
 通常你会在点击按钮的处理函数中使用 `sendTransaction`。
 
-```jsx
+```jsx | pure
 const handleClick = () => {
   setDisabled(true)
   sendTransaction({ to: address, value: utils.parseEther(amount) })
