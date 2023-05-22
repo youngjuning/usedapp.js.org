@@ -9,6 +9,8 @@ nav:
 
 # 安装
 
+<ins class="adsbygoogle" style="display:block; text-align:center;" data-ad-layout="in-article" data-ad-format="fluid" data-ad-client="ca-pub-7029815294762181" data-ad-slot="4525171313"></ins><script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+
 要开始使用 useDapp，您需要拥有一个可用的 React 环境。
 
 要开始，请在您的项目中添加以下 npm 包 `@usedapp/core` 及其对等依赖项。
