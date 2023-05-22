@@ -97,14 +97,6 @@ const DocLayout: FC = () => {
             data-full-width-responsive="true"
           />
           {outlet}
-          <Adsense
-            className="adsbygoogle"
-            style={{ display: "block" }}
-            data-ad-client="ca-pub-7029815294762181"
-            data-ad-slot="2148104191"
-            data-ad-format="auto"
-            data-full-width-responsive="true"
-          />
           <Footer />
         </Content>
         {fm.toc === 'content' && (
