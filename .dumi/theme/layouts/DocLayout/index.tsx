@@ -87,6 +87,7 @@ const DocLayout: FC = () => {
       <main>
         {showSidebar && <Sidebar />}
         <Content>
+          <div dangerouslySetInnerHTML={{__html: `<ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-7029815294762181" data-ad-slot="6412968057" data-ad-format="auto" data-full-width-responsive="true"></ins><script>(adsbygoogle = window.adsbygoogle || []).push({});</script>`}} />
           {outlet}
           <Footer />
         </Content>
