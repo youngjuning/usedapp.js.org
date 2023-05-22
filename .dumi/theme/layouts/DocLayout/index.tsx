@@ -49,6 +49,9 @@ const DocLayout: FC = () => {
     }
   }, [loading, hash]);
 
+  useEffect(() => {
+    (adsbygoogle = window.adsbygoogle || []).push({});
+  }, []);
   return (
     <div
       className="dumi-default-doc-layout"
@@ -87,7 +90,7 @@ const DocLayout: FC = () => {
       <main>
         {showSidebar && <Sidebar />}
         <Content>
-          <div dangerouslySetInnerHTML={{__html: `<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7029815294762181" crossorigin="anonymous"></script><ins class="adsbygoogle" style="display:block; text-align:center;" data-ad-layout="in-article" data-ad-format="fluid" data-ad-client="ca-pub-7029815294762181" data-ad-slot="4525171313"></ins><script>(adsbygoogle = window.adsbygoogle || []).push({});</script>`}} />
+          <ins className="adsbygoogle" style={{ display: "block", textAlign:"center" }} data-ad-layout="in-article" data-ad-format="fluid" data-ad-client="ca-pub-7029815294762181" data-ad-slot="4525171313"></ins>
           {outlet}
           <Footer />
         </Content>
