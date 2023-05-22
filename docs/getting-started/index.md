@@ -24,7 +24,7 @@ $ npm install @usedapp/core ethers
 
 下面是一个简单的例子：
 
-```jsx
+```jsx | pure
 import React from 'react'
 
 import { Mainnet, DAppProvider, useEtherBalance, useEthers, Config, Goerli } from '@usedapp/core'

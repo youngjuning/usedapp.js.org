@@ -21,7 +21,7 @@ keywords: ['useDapp', 'React', 'ethers', '以太坊', 'Ethereum', 'Hooks', 'DApp
 
 提供一种获取账户余额的方法。该方法以账户地址作为参数，并返回 BigNumber 格式余额，如果数据不可用（即未连接），则返回 `undefined`。要获取当前连接的账户，请使用 `useEthers()` 函数。
 
-```jsx
+```jsx | pure
 import React from 'react'
 import ReactDOM from 'react-dom'
 import { formatEther } from '@ethersproject/units'
@@ -78,7 +78,7 @@ export default () => (
 
 提供一种获取指定地址 ERC20 代币余额的方法。该方法以代币地址作为参数，并返回 BigNumber 格式的余额，如果数据不可用，则返回 `undefined`。
 
-```jsx
+```jsx | pure
 import React from 'react'
 import { formatEther } from '@ethersproject/units'
 import { Mainnet, DAppProvider, useTokenBalance, useEthers, Config, Goerli } from '@usedapp/core'
@@ -140,7 +140,7 @@ See the [Custom Hooks](https://usedapp-docs.netlify.app/docs/Guides/Reading/Cust
 
 为了在没有浏览器钱包的情况下以只读模式与区块链进行交互，只需在配置文件中指定 `readOnlyChainId` 和 `readOnlyUrls`，无需激活即可使用。
 
-```jsx
+```jsx | pure
 import React from 'react'
 import { Config, DAppProvider, Goerli, Mainnet, useEtherBalance } from '@usedapp/core'
 import { getDefaultProvider } from 'ethers'
