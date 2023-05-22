@@ -82,7 +82,7 @@ export default () => (
 
 你需要做的第一件事是使用可选配置设置 `DAppProvider` 并将整个应用程序包装在其中。
 
-```jsx
+```jsx | pure
 <DAppProvider>
   <App /> {/* 使用 Provider 包装你的应用程序。 */}
 </DAppProvider>
@@ -92,7 +92,7 @@ export default () => (
 
 然后，您需要使用 `activateBrowserWallet` 激活提供程序。最好在用户单击“连接”按钮时执行此操作。
 
-```jsx
+```jsx | pure
 export function App() {
   const { activateBrowserWallet, account } = useEthers()
   return (
