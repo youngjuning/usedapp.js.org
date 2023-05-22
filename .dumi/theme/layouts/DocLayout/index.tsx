@@ -88,6 +88,7 @@ const DocLayout: FC = () => {
       <main>
         {showSidebar && <Sidebar />}
         <Content>
+          {outlet}
           <Adsense
             className="adsbygoogle"
             style={{ display: "block" }}
@@ -96,7 +97,6 @@ const DocLayout: FC = () => {
             data-ad-format="auto"
             data-full-width-responsive="true"
           />
-          {outlet}
           <Footer />
         </Content>
         {fm.toc === 'content' && (
