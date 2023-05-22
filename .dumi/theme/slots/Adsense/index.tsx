@@ -7,7 +7,11 @@ const Adsense: React.FC<any> = (props) => {
   }, [])
 
   return (
-    <center><ins {...props} /></center>
+    <div style={{ width: "100%", margin: "16px 0"}}>
+      <center>
+        <ins {...props} />
+      </center>
+    </div>
   );
 }
 
