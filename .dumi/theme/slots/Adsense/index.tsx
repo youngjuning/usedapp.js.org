@@ -7,7 +7,7 @@ const Adsense: React.FC<any> = (props) => {
   }, [])
 
   return (
-    <ins {...props} />
+    <center><ins {...props} /></center>
   );
 }
 
