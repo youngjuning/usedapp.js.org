@@ -91,7 +91,7 @@ RPC Listening on 127.0.0.1:8545
 
 把 ganache 地址添加到配置中。
 
-```jsx | pure
+```jsx
 import { Localhost } from '@usedapp/core'
 
 const config = {
@@ -106,7 +106,7 @@ const config = {
 
 要从区块链中读取数据，只需在指定的调用中添加一个查询选项（queryOptions）对象即可。由于 useDapp 会自动执行该操作，因此您无需部署 multicall。
 
-```jsx | pure
+```jsx
 const etherBalance = useEtherBalance(account, { chainId: Localhost.chainId })
 const tokenBalance = useTokenBalance(tokenAddress, account, { chainId: Localhost.chainId })
 ```

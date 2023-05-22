@@ -13,7 +13,7 @@ group:
 
 以下是示例：
 
-```jsx | pure
+```jsx
 import { useEthers } from '@usedapp/core'
 import { Button } from 'antd'
 
@@ -47,7 +47,7 @@ useEthers 钩子返回许多有用的函数和变量，如下所示：
 
 该应用程序允许在只读模式下查看以太坊 2.0 质押合约的余额。当连接钱包后，它还会显示用户帐户及其余额。
 
-```jsx | pure
+```jsx
 import React from 'react'
 import { formatEther } from '@ethersproject/units'
 import { Mainnet, DAppProvider, useEtherBalance, useEthers, Config, Goerli } from '@usedapp/core'

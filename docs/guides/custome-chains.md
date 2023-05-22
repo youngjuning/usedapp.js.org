@@ -29,7 +29,7 @@ useDApp 的典型用途是连接到众所周知的链，例如以太坊主网或
 
 ### 示例
 
-```ts | pure
+```ts
 import { Chain } from '@usedapp/core'
 
 export const TutorialChain: Chain = {
