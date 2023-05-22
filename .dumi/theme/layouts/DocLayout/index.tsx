@@ -66,7 +66,6 @@ const DocLayout: FC = () => {
         )}
         {fm.keywords && fm.keywords.map(keyword => (<meta key={keyword} property="article:tag" content={keyword}></meta>))}
         <link rel="canonical" href={window.location.origin + pathname}></link>
-        <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests" />
       </Helmet>
       <Header />
       <Hero />
