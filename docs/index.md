@@ -25,23 +25,4 @@ features:
     description: 轻松管理交易状态。交易历史记录和通知
 ---
 
-```jsx
-/**
- * inline: true
- */
-export default () => {
-  return <><ins className="adsbygoogle" style={{ display: "block" }}data-ad-client="ca-pub-7029815294762181" data-ad-slot="6412968057" data-ad-format="auto" data-full-width-responsive="true"></ins><script>(adsbygoogle = window.adsbygoogle || []).push({});</script></>
-}
-```
-
-## 谁在使用
-
 <WhoAreUsing></WhoAreUsing>
-
-## 交流与反馈
-
-请访问 [GitHub](https://github.com/youngjuning/usedapp.js.org) 或加入讨论群：
-
-<div>
-  <img data-type="Telegram" src="https://cdn.jsdelivr.net/gh/youngjuning/images@main/1683342702064.png" width="300" />
-</div>
