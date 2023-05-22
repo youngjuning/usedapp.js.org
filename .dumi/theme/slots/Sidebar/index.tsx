@@ -1,5 +1,6 @@
 import { NavLink, useLocation, useRouteMeta, useSidebarData } from 'dumi';
 import Toc from 'dumi/theme-default/slots/Toc';
+import Adsense from '../Adsense'
 import React, { type FC } from 'react';
 import './index.less';
 
@@ -27,7 +28,7 @@ const Sidebar: FC = () => {
           ))}
         </dl>
       ))}
-      <ins className="adsbygoogle" style={{display: "block" }} data-ad-client="ca-pub-7029815294762181" data-ad-slot="9692865372" data-ad-format="auto" data-full-width-responsive="true"></ins><script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+      <Adsense className="adsbygoogle" style={{display: "block" }} data-ad-client="ca-pub-7029815294762181" data-ad-slot="9692865372" data-ad-format="auto" data-full-width-responsive="true" />
     </div>
   );
 };
