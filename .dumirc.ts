@@ -20,7 +20,6 @@ export default defineConfig({
     process.env.NODE_ENV === 'production'
       ? 'https://cdn.jsdelivr.net/gh/youngjuning/usedapp.js.org@gh-pages/'
       : '/',
-  ...(process.env.NODE_ENV === 'development' ? {} : { ssr: {} }),
   analytics: {
     ga_v2: 'G-QT3BHRCWSH',
   },
