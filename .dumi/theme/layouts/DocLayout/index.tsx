@@ -87,7 +87,7 @@ const DocLayout: FC = () => {
       <main>
         {showSidebar && <Sidebar />}
         <Content>
-          <div dangerouslySetInnerHTML={{__html: `<ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-7029815294762181" data-ad-slot="6412968057" data-ad-format="auto" data-full-width-responsive="true"></ins><script>(adsbygoogle = window.adsbygoogle || []).push({});</script>`}} />
+          <div dangerouslySetInnerHTML={{__html: `<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7029815294762181" crossorigin="anonymous"></script><ins class="adsbygoogle" style="display:block; text-align:center;" data-ad-layout="in-article" data-ad-format="fluid" data-ad-client="ca-pub-7029815294762181" data-ad-slot="4525171313"></ins><script>(adsbygoogle = window.adsbygoogle || []).push({});</script>`}} />
           {outlet}
           <Footer />
         </Content>
