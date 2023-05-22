@@ -15,7 +15,7 @@ import Features from 'dumi/theme-default/slots/Features';
 import Footer from 'dumi/theme-default/slots/Footer';
 import Header from 'dumi/theme-default/slots/Header';
 import Hero from 'dumi/theme-default/slots/Hero';
-import Sidebar from 'dumi/theme-default/slots/Sidebar';
+import Sidebar from '../../slots/Sidebar';
 import Toc from 'dumi/theme-default/slots/Toc';
 import React, { useEffect, useState, type FC } from 'react';
 import './index.less';
@@ -92,6 +92,7 @@ const DocLayout: FC = () => {
         <Content>
           <ins className="adsbygoogle" style={{ display: "block", textAlign:"center" }} data-ad-layout="in-article" data-ad-format="fluid" data-ad-client="ca-pub-7029815294762181" data-ad-slot="4525171313"></ins>
           {outlet}
+          <ins className="adsbygoogle" style={{ display: "block", textAlign:"center" }} data-ad-layout="in-article" data-ad-format="fluid" data-ad-client="ca-pub-7029815294762181" data-ad-slot="4525171313"></ins>
           <Footer />
         </Content>
         {fm.toc === 'content' && (

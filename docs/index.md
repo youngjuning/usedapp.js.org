@@ -30,7 +30,7 @@ features:
  * inline: true
  */
 export default () => {
-  return <><ins className="adsbygoogle" style={{ display: "block", textAlign:"center" }} data-ad-layout="in-article" data-ad-format="fluid" data-ad-client="ca-pub-7029815294762181" data-ad-slot="4525171313"></ins><script>(adsbygoogle = window.adsbygoogle || []).push({});</script></>
+  return <><ins className="adsbygoogle" style={{ display: "block" }}data-ad-client="ca-pub-7029815294762181" data-ad-slot="6412968057" data-ad-format="auto" data-full-width-responsive="true"></ins><script>(adsbygoogle = window.adsbygoogle || []).push({});</script></>
 }
 ```
 
