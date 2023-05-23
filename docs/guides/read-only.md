@@ -13,7 +13,7 @@ group:
 
 以下是示例配置：
 
-```jsx
+```jsx | pure
 import { Mainnet } from '@usedapp/core'
 
 const config = {
