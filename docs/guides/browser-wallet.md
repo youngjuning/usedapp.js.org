@@ -13,7 +13,7 @@ group:
 
 以下是示例：
 
-```jsx
+```jsx | pure
 import { useEthers } from '@usedapp/core'
 import { Button } from 'antd'
 
