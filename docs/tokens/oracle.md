@@ -1,5 +1,6 @@
 ---
 title: Oracle Coin
+keywords: ['Oracle Coin', 'ethers', '以太坊', 'Ethereum', 'DApp']
 nav:
   title: 代币
   order: 3

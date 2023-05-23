@@ -1,7 +1,8 @@
 ---
 order: 3
+title: 本地区块链
 description: Ethereum 与 React 的结合，为快速 Dapp 开发而生的框架
-keywords: ['useDapp', 'React', 'ethers', '以太坊', 'Ethereum', 'DApp', 'ganache']
+keywords: ['useDApp', 'React', 'ethers', '以太坊', 'Ethereum', 'DApp', 'ganache']
 group:
   title: 连接
   order: 1
@@ -104,7 +105,7 @@ const config = {
 
 ## 从区块链读取
 
-要从区块链中读取数据，只需在指定的调用中添加一个查询选项（queryOptions）对象即可。由于 useDapp 会自动执行该操作，因此您无需部署 multicall。
+要从区块链中读取数据，只需在指定的调用中添加一个查询选项（queryOptions）对象即可。由于 useDApp 会自动执行该操作，因此您无需部署 multicall。
 
 ```jsx | pure
 const etherBalance = useEtherBalance(account, { chainId: Localhost.chainId })

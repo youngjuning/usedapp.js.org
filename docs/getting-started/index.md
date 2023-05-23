@@ -1,8 +1,8 @@
 ---
 order: 0
-title: 安装 | useDapp
-description: 要开始使用 useDapp，您需要拥有一个可用的 React 环境。
-keywords: ['useDapp', 'React', 'ethers', '以太坊', 'Ethereum', 'DApp']
+title: 安装
+description: 要开始使用 useDApp，您需要拥有一个可用的 React 环境。
+keywords: ['useDApp', 'React', 'ethers', '以太坊', 'Ethereum', 'DApp']
 nav:
   title: 开始
   order: 0
@@ -10,7 +10,7 @@ nav:
 
 # 安装
 
-要开始使用 useDapp，您需要拥有一个可用的 React 环境。
+要开始使用 useDApp，您需要拥有一个可用的 React 环境。
 
 要开始，请在您的项目中添加以下 npm 包 `@usedapp/core` 及其对等依赖项。
 
@@ -28,14 +28,15 @@ $ npm install @usedapp/core ethers
 ```jsx
 import React from 'react'
 
-import { DAppProvider, useEtherBalance, useEthers, Config, Goerli } from '@usedapp/core'
+import { DAppProvider, useEtherBalance, useEthers, Config, Mainnet, Goerli } from '@usedapp/core'
 import { formatEther } from '@ethersproject/units'
 import { getDefaultProvider } from 'ethers'
 import { Button } from 'antd';
 
 const config: Config = {
-  readOnlyChainId: Goerli.chainId,
+  readOnlyChainId: Mainnet.chainId,
   readOnlyUrls: {
+    [Mainnet.chainId]: getDefaultProvider('mainnet'),
     [Goerli.chainId]: getDefaultProvider('goerli'),
   },
 }

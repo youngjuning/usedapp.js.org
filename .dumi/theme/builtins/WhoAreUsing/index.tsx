@@ -58,7 +58,7 @@ const WhoAreUsing: React.FC = () => {
   return (
     <ul className="dumi-site-who-are-using">
       {links. map(item => (
-        <li>
+        <li key={item.link}>
           <a href={item.link} target="_blank" rel="noreferrer">
             <img
               src={item.logo}

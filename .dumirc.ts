@@ -4,7 +4,7 @@ export default defineConfig({
   favicons: ['https://usedapp.io/img/favicon.svg'],
   autoAlias: false,
   themeConfig: {
-    name: 'useDapp',
+    name: 'useDApp',
     logo: 'https://usedapp.io/img/favicon.svg',
     prefersColor: { default: 'auto' },
     socialLinks: {

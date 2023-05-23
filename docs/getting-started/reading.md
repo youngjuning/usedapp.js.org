@@ -1,7 +1,8 @@
 ---
 order: 1
+title: 读取
 description: 有许多有用的 Hooks 可以用来读取区块链状态。
-keywords: ['useDapp', 'React', 'ethers', '以太坊', 'Ethereum', 'Hooks', 'DApp']
+keywords: ['useDApp', 'React', 'ethers', '以太坊', 'Ethereum', 'Hooks', 'DApp']
 ---
 
 # 读取
@@ -25,7 +26,7 @@ keywords: ['useDapp', 'React', 'ethers', '以太坊', 'Ethereum', 'Hooks', 'DApp
 import React from 'react'
 import ReactDOM from 'react-dom'
 import { formatEther } from '@ethersproject/units'
-import { Mainnet, DAppProvider, useEtherBalance, useEthers, Config, Goerli } from '@usedapp/core'
+import { DAppProvider, useEtherBalance, useEthers, Config, Mainnet, Goerli } from '@usedapp/core'
 import { getDefaultProvider } from 'ethers'
 import { Button } from 'antd';
 
@@ -48,7 +49,7 @@ const App = () => {
   const { account, chainId } = useEthers()
   const etherBalance = useEtherBalance(account)
   if (!config.readOnlyUrls[chainId]) {
-    return <p>Please use either Mainnet or Goerli testnet.</p>
+    return <p>Please use either Goerli testnet.</p>
   }
 
   return (

@@ -1,14 +1,15 @@
 ---
 order: 3
+title: Create Eth App
 description: 你可以利用 create-eth-app 快速初始化一个以太坊应用。
-keywords: ['useDapp', 'React', 'ethers', '以太坊', 'Ethereum', 'Hooks', 'create-eth-app', 'DApp']
+keywords: ['useDApp', 'React', 'ethers', '以太坊', 'Ethereum', 'Hooks', 'create-eth-app', 'DApp']
 ---
 
 # Create Eth App
 
 ## 安装
 
-要使用 useDapp 快速启动开发，请按照以下步骤操作：
+要使用 useDApp 快速启动开发，请按照以下步骤操作：
 
 1. 在本地开发机器上安装 Node 14 或更高版本。如果在服务器上不需要这样做。
 2. 安装 Yarn。因为 Create Eth App 依赖于 Yarn Workspaces，而 Npm 不支持此功能。
