@@ -1,5 +1,6 @@
 ---
 order: 0
+title: 安装 | useDapp
 description: 要开始使用 useDapp，您需要拥有一个可用的 React 环境。
 keywords: ['useDapp', 'React', 'ethers', '以太坊', 'Ethereum', 'DApp']
 nav:
@@ -27,15 +28,14 @@ $ npm install @usedapp/core ethers
 ```jsx
 import React from 'react'
 
-import { Mainnet, DAppProvider, useEtherBalance, useEthers, Config, Goerli } from '@usedapp/core'
+import { DAppProvider, useEtherBalance, useEthers, Config, Goerli } from '@usedapp/core'
 import { formatEther } from '@ethersproject/units'
 import { getDefaultProvider } from 'ethers'
 import { Button } from 'antd';
 
 const config: Config = {
-  readOnlyChainId: Mainnet.chainId,
+  readOnlyChainId: Goerli.chainId,
   readOnlyUrls: {
-    [Mainnet.chainId]: getDefaultProvider('mainnet'),
     [Goerli.chainId]: getDefaultProvider('goerli'),
   },
 }
@@ -51,7 +51,7 @@ const App = () => {
   const { account, chainId } = useEthers()
   const etherBalance = useEtherBalance(account)
   if (!config.readOnlyUrls[chainId]) {
-    return <p>Please use either Mainnet or Goerli testnet.</p>
+    return <p>Please use either Goerli testnet.</p>
   }
 
   return (
@@ -93,7 +93,7 @@ export default () => (
 然后，您需要使用 `activateBrowserWallet` 激活提供程序。最好在用户单击“连接”按钮时执行此操作。
 
 ```jsx | pure
-export function App() {
+const App = () => {
   const { activateBrowserWallet, account } = useEthers()
   return (
     <div>
