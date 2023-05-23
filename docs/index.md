@@ -1,5 +1,5 @@
 ---
-title: useDApp | 当以太坊遇见 React
+title: 当以太坊遇见 React
 description: Ethereum 与 React 的结合，为快速 Dapp 开发而生的框架
 keywords: ['useDApp', 'React', 'ethers', '以太坊', 'Ethereum', 'Hooks', 'create-eth-app', 'DApp']
 hero:
