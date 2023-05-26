@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkuseDApp=self.webpackChunkuseDApp||[]).push([[448],{95993:function(E,n,e){e.r(n);var a=e(14570),u=e(67294),_=e(34661),t=function(){var d=(0,a.UO)(),D=d.id,m=(0,a.WF)(),o=m.demos,r=o[D]||{},s=r.component;return s&&(0,u.createElement)(s)};n.default=t}}]);
