@@ -10,7 +10,7 @@
   },
   "homepage": "https://usedapp.js.org",
   "scripts": {
-    "preinstall": "npx patch-package",
+    "postinstall": "npx patch-package",
     "build": "dumi build",
     "dev": "dumi dev",
     "prepare": "dumi setup",
