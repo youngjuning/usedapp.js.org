@@ -1,5 +1,5 @@
 {
-  "name": "useDApp",
+  "name": "usedapp.js.org",
   "version": "0.0.1",
   "description": "为快速 Dapp 开发而生的框架",
   "license": "MIT",
@@ -10,6 +10,7 @@
   },
   "homepage": "https://usedapp.js.org",
   "scripts": {
+    "preinstall": "npx patch-package",
     "build": "dumi build",
     "dev": "dumi dev",
     "prepare": "dumi setup",
