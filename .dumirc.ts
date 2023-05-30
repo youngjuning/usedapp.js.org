@@ -32,5 +32,9 @@ export default defineConfig({
   ...(process.env.NODE_ENV === 'development' ? {} : { ssr: {} }),
   headScripts: [
     {src: 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7029815294762181', async: true, crossorigin: 'anonymous'},
-  ]
+    {
+      async: true,
+      "data-cfasync": false, src: "https://pl19560989.highrevenuegate.com/617358d641c464bbf73d834faf483921/invoke.js"
+    }
+  ],
 });
