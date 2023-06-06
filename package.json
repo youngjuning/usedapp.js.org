@@ -10,14 +10,13 @@
   },
   "homepage": "https://usedapp.js.org",
   "scripts": {
-    "postinstall": "npx patch-package",
     "build": "dumi build",
     "dev": "dumi dev",
     "prepare": "dumi setup",
     "start": "npm run dev"
   },
   "devDependencies": {
-    "dumi": "^2.1.22"
+    "dumi": "^2.2.1"
   },
   "authors": [
     "luozhu <luozhu2021@gmail.com>"
