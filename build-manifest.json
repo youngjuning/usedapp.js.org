@@ -1,10 +1,10 @@
 {
   "assets": {
     "public/ads.txt": "https://cdn.jsdelivr.net/gh/youngjuning/usedapp.js.org@gh-pages/ads.txt",
+    "public/baidu_verify_codeva-YkM52A1wFz.html": "https://cdn.jsdelivr.net/gh/youngjuning/usedapp.js.org@gh-pages/baidu_verify_codeva-YkM52A1wFz.html",
     "public/d15e9cfdb181893c1f2f2917ef444611.html": "https://cdn.jsdelivr.net/gh/youngjuning/usedapp.js.org@gh-pages/d15e9cfdb181893c1f2f2917ef444611.html",
     "public/googled29fba422c357ff8.html": "https://cdn.jsdelivr.net/gh/youngjuning/usedapp.js.org@gh-pages/googled29fba422c357ff8.html",
     "public/robots.txt": "https://cdn.jsdelivr.net/gh/youngjuning/usedapp.js.org@gh-pages/robots.txt",
-    "public/sw.js": "https://cdn.jsdelivr.net/gh/youngjuning/usedapp.js.org@gh-pages/sw.js",
     "public/abis/erc20.json": "https://cdn.jsdelivr.net/gh/youngjuning/usedapp.js.org@gh-pages/abis/erc20.json",
     "public/abis/oracle.json": "https://cdn.jsdelivr.net/gh/youngjuning/usedapp.js.org@gh-pages/abis/oracle.json",
     "umi.css": "https://cdn.jsdelivr.net/gh/youngjuning/usedapp.js.org@gh-pages/umi.a1fb4a0f.css",
