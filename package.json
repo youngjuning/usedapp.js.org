@@ -10,13 +10,15 @@
   },
   "homepage": "https://usedapp.js.org",
   "scripts": {
+    "postinstall": "patch-package",
     "build": "dumi build",
     "dev": "dumi dev",
     "prepare": "dumi setup",
     "start": "npm run dev"
   },
   "devDependencies": {
-    "dumi": "^2.2.1"
+    "dumi": "2.2.1",
+    "patch-package": "^7.0.0"
   },
   "authors": [
     "luozhu <luozhu2021@gmail.com>"
