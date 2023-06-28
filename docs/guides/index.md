@@ -2,7 +2,7 @@
 order: 0
 title: 指南
 description: Ethereum 与 React 的结合，为快速 Dapp 开发而生的框架
-keywords: ['useDApp', 'React', 'ethers', '以太坊', 'Ethereum', 'DApp']
+keywords: ['useDApp', 'React', 'ethers', '以太坊', 'Ethereum', 'DApp', '紫竹翻译计划']
 nav:
   title: 指南
   order: 1

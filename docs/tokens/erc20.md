@@ -1,7 +1,7 @@
 ---
 title: ERC-20 代币标准
 description: ERC-20（以太坊意见征求 20）由 Fabian Vogelsteller 提出于 2015 年 11 月。这是一个能实现智能合约中代币的 API 标准。
-keywords: ['ERC-20', 'Fabian Vogelsteller', 'ethers', '以太坊', 'Ethereum', 'DApp']
+keywords: ['ERC-20', 'Fabian Vogelsteller', 'ethers', '以太坊', 'Ethereum', 'DApp', '紫竹翻译计划']
 nav:
   title: 代币
   order: 3

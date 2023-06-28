@@ -2,7 +2,7 @@
 order: 1
 title: 只读模式
 description: Ethereum 与 React 的结合，为快速 Dapp 开发而生的框架
-keywords: ['useDApp', 'React', 'ethers', '以太坊', 'Ethereum', 'DApp']
+keywords: ['useDApp', 'React', 'ethers', '以太坊', 'Ethereum', 'DApp', '紫竹翻译计划']
 group:
   title: 连接
   order: 1

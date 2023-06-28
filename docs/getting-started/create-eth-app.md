@@ -2,7 +2,7 @@
 order: 3
 title: Create Eth App
 description: 你可以利用 create-eth-app 快速初始化一个以太坊应用。
-keywords: ['useDApp', 'React', 'ethers', '以太坊', 'Ethereum', 'Hooks', 'create-eth-app', 'DApp']
+keywords: ['useDApp', 'React', 'ethers', '以太坊', 'Ethereum', 'Hooks', 'create-eth-app', 'DApp', '紫竹翻译计划']
 ---
 
 # Create Eth App
