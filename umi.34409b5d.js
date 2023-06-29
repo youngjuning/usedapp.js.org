@@ -278,9 +278,9 @@ export default () => (
     <App />
   </DAppProvider>
 )`},react:{type:"NPM",value:"18.1.0"},"@usedapp/core":{type:"NPM",value:"1.2.10"},"@ethersproject/units":{type:"NPM",value:"5.7.0"},ethers:{type:"NPM",value:"5.7.2"},antd:{type:"NPM",value:"5.6.3"}}}}},F={title:"\u5B89\u88C5",toc:"menu",filename:"docs/getting-started/index.md",order:0,description:"\u8981\u5F00\u59CB\u4F7F\u7528 useDApp\uFF0C\u60A8\u9700\u8981\u62E5\u6709\u4E00\u4E2A\u53EF\u7528\u7684 React \u73AF\u5883\u3002",keywords:["useDApp","React","ethers","\u4EE5\u592A\u574A","Ethereum","DApp","\u7D2B\u7AF9\u7FFB\u8BD1\u8BA1\u5212"],nav:{title:"\u5F00\u59CB",order:0}},q=[{id:"\u5B89\u88C5",depth:1,title:"\u5B89\u88C5"},{id:"\u793A\u4F8B",depth:2,title:"\u793A\u4F8B"},{id:"\u8BBE\u7F6E",depth:2,title:"\u8BBE\u7F6E"},{id:"\u8FDE\u63A5\u5230\u6D4F\u89C8\u5668\u94B1\u5305",depth:2,title:"\u8FDE\u63A5\u5230\u6D4F\u89C8\u5668\u94B1\u5305"}],Y=[{value:"\u8981\u5F00\u59CB\u4F7F\u7528 useDApp\uFF0C\u60A8\u9700\u8981\u62E5\u6709\u4E00\u4E2A\u53EF\u7528\u7684 React \u73AF\u5883\u3002",paraId:0,tocIndex:0},{value:"\u8981\u5F00\u59CB\uFF0C\u8BF7\u5728\u60A8\u7684\u9879\u76EE\u4E2D\u6DFB\u52A0\u4EE5\u4E0B npm \u5305 ",paraId:1,tocIndex:0},{value:"@usedapp/core",paraId:1,tocIndex:0},{value:" \u53CA\u5176\u5BF9\u7B49\u4F9D\u8D56\u9879\u3002",paraId:1,tocIndex:0},{value:`# Yarn
-$ yarn add @usedapp/core ethers
+$ yarn add @usedapp/core ethers@5.7.2
 # Or NPM
-$ npm install @usedapp/core ethers
+$ npm install @usedapp/core ethers@5.7.2
 `,paraId:2,tocIndex:0},{value:"\u4E0B\u9762\u662F\u4E00\u4E2A\u7B80\u5355\u7684\u4F8B\u5B50\uFF1A",paraId:3,tocIndex:1},{value:"\u4F60\u9700\u8981\u505A\u7684\u7B2C\u4E00\u4EF6\u4E8B\u662F\u4F7F\u7528\u53EF\u9009\u914D\u7F6E\u8BBE\u7F6E ",paraId:4,tocIndex:2},{value:"DAppProvider",paraId:4,tocIndex:2},{value:" \u5E76\u5C06\u6574\u4E2A\u5E94\u7528\u7A0B\u5E8F\u5305\u88C5\u5728\u5176\u4E2D\u3002",paraId:4,tocIndex:2},{value:`<DAppProvider>
   <App /> {/* \u4F7F\u7528 Provider \u5305\u88C5\u4F60\u7684\u5E94\u7528\u7A0B\u5E8F\u3002 */}
 </DAppProvider>
