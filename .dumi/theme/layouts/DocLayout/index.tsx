@@ -66,7 +66,6 @@ const DocLayout: FC = () => {
         )}
         {fm.keywords && fm.keywords.map(keyword => (<meta key={keyword} property="article:tag" content={keyword}></meta>))}
         <link rel="canonical" href={window.location.origin + pathname}></link>
-        <meta name="monetag" content="d15e9cfdb181893c1f2f2917ef444611"></meta>
       </Helmet>
       <Header />
       <Hero />
