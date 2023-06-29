@@ -16,9 +16,9 @@ nav:
 
 ```bash
 # Yarn
-$ yarn add @usedapp/core ethers
+$ yarn add @usedapp/core ethers@5.7.2
 # Or NPM
-$ npm install @usedapp/core ethers
+$ npm install @usedapp/core ethers@5.7.2
 ```
 
 ## 示例
