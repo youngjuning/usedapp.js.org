@@ -1,5 +1,5 @@
 ---
-title: 当以太坊遇见 React
+title: 最好用的 React 拖放组件库
 description: Ethereum 与 React 的结合，为快速 Dapp 开发而生的框架
 keywords: ['useDApp', 'React', 'ethers', '以太坊', 'Ethereum', 'Hooks', 'create-eth-app', 'DApp', '紫竹翻译计划']
 hero:
