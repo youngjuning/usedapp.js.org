@@ -90,8 +90,7 @@ const DocLayout: FC = () => {
         <Content>
           <div className='markdown' style={{ marginBottom: '18px'}}>
             <center>
-              <a href="https://cloud.tencent.com/act/cps/redirect?redirect=1040&cps_key=ea8068199c73a836ffe37e4ea4c2ddee&from=console" nofollow alt="腾讯云-新客专属福利" target="_blank">腾讯云-新客专属福利</a> | <a href="https://www.cnouyi.careers/join/54171828" nofollow alt="欧易-注册开盲盒赢 BTC" target="_blank">欧易-注册开盲盒赢 BTC</a> | <a href="https://sockboom.shop/auth/register?affid=552052" nofollow alt="SockBoom-科学上网 VPN 梯子" target="_blank">SockBoom-稳定的科学上网梯子</a>
-            </center>
+              <a href="https://www.cnouyi.careers/join/54171828" nofollow target="_blank">欧易 - 注册开盲盒赢 BTC、ETH、DOGE</a> | <a href="https://sockboom.shop/auth/register?affid=552052" nofollow target="_blank">SockBoom - 稳定的科学上网梯子</a> | <a href="https://www.pionex.com/zh-CN/sign/ref/0rcaD2ex9Om" nofollow target="_blank">Pionex 派网 - 网格交易| 量化交易</a>
           </div>
           {outlet}
           {pathname === '/' &&
