@@ -25,4 +25,14 @@ features:
     description: 轻松管理交易状态。交易历史记录和通知
 ---
 
+## 谁在使用
+
 <WhoAreUsing></WhoAreUsing>
+
+## 交流与反馈
+
+请访问 [GitHub](https://github.com/youngjuning/usedapp.js.org) 或加入讨论群：
+
+<div>
+  <img data-type="Telegram" src="https://cdn.jsdelivr.net/gh/youngjuning/images@main/1683342702064.png" width="300" />
+</div>
