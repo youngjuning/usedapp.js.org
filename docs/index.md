@@ -11,8 +11,6 @@ hero:
   actions:
     - text: 立即上手
       link: /getting-started
-    - text: GitHub
-      link: https://github.com/youngjuning/usedapp.js.org
 features:
   - title: 读取
     emoji: 🔍
