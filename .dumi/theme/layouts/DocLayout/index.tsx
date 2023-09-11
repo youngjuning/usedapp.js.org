@@ -11,6 +11,7 @@ import {
   useSiteData,
 } from 'dumi';
 import Content from 'dumi/theme-default/slots/Content';
+import ContentFooter from 'dumi/theme-default/slots/ContentFooter';
 import Features from 'dumi/theme-default/slots/Features';
 import Footer from 'dumi/theme-default/slots/Footer';
 import Header from 'dumi/theme-default/slots/Header';
@@ -64,8 +65,11 @@ const DocLayout: FC = () => {
         {fm.description && (
           <meta property="og:description" content={fm.description} />
         )}
-        {fm.keywords && fm.keywords.map(keyword => (<meta key={keyword} property="article:tag" content={keyword}></meta>))}
-        <link rel="canonical" href={hostname + pathname}></link>
+        {fm.keywords &&
+          fm.keywords.map((keyword) => (
+            <meta key={keyword} property="article:tag" content={keyword}></meta>
+          ))}
+        {hostname && <link rel="canonical" href={hostname + pathname} />}
       </Helmet>
       <Header />
       <Hero />
@@ -88,15 +92,18 @@ const DocLayout: FC = () => {
       <main>
         {showSidebar && <Sidebar />}
         <Content>
-          {outlet}
-          <Adsense
-            className="adsbygoogle"
-            style={{ display: "block" }}
-            data-ad-client="ca-pub-7029815294762181"
-            data-ad-slot="6412968057"
-            data-ad-format="auto"
-            data-full-width-responsive="true"
-          />
+          <article>
+            {outlet}
+            <Adsense
+              className="adsbygoogle"
+              style={{ display: "block" }}
+              data-ad-client="ca-pub-7029815294762181"
+              data-ad-slot="6412968057"
+              data-ad-format="auto"
+              data-full-width-responsive="true"
+            />
+          </article>
+          <ContentFooter />
           <Footer />
         </Content>
         {fm.toc === 'content' && (
