@@ -30,7 +30,13 @@ export default defineConfig({
   hash: true,
   exportStatic: {},
   ...(process.env.NODE_ENV === 'development' ? {} : { ssr: {} }),
+  metas: [
+    {
+      name: 'monetag',
+      content: 'b70509b53e98ef5811f3d0af5c090b16',
+    },
+  ],
   headScripts: [
-    {src: 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7029815294762181', async: true, crossorigin: 'anonymous'}
+    {src: 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7029815294762181', async: true, crossorigin: 'anonymous'},
   ],
 });
