@@ -22,13 +22,3 @@ features:
     emoji: 🎨
     description: 轻松管理交易状态。交易历史记录和通知
 ---
-
-## 谁在使用
-
-<WhoAreUsing></WhoAreUsing>
-
-## 安装
-
-```sh
-yarn add @usedapp/core ethers@5.7.2
-```
