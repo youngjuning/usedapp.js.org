@@ -30,16 +30,7 @@ export default defineConfig({
   hash: true,
   exportStatic: {},
   ...(process.env.NODE_ENV === 'development' ? {} : { ssr: {} }),
-  metas: [
-    {
-      name: 'monetag',
-      content: 'b70509b53e98ef5811f3d0af5c090b16',
-    },
-  ],
   headScripts: [
     {src: 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7029815294762181', async: true, crossorigin: 'anonymous'}
-  ],
-  scripts: [
-    `(function(d,z,s){s.src='https://'+d+'/400/'+z;try{(document.body||document.documentElement).appendChild(s)}catch(e){}})('belickitungchan.com',6431899,document.createElement('script'))`
   ]
 });
